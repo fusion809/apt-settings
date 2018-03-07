@@ -10,8 +10,8 @@ Package: *
 Pin: release a=testing
 Pin-Priority: 2
 
-Package: *vim* *xxd* *git* *apt*
-Pin: release a=/
+Package: *
+Pin: release o=obs://build.opensuse.org/home:fusion809/Debian_9.0
 Pin-Priority: 1003
 
 Package: *
