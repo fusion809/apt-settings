@@ -1,0 +1,3 @@
+# oldstable repos, be careful, remember to edit /etc/apt/preferences too
+deb http://debian.mirror.digitalpacific.com.au/debian/ oldstable main
+deb-src http://debian.mirror.digitalpacific.com.au/debian/ oldstable main
