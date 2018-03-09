@@ -18,7 +18,7 @@ Package: *
 Pin: release a=unstable
 Pin-Priority: 2
 
-Package: firefox fontconfig-config libfontconfig1 libgpm2 libnss3 *scilab* *osc* *obs* youtube-dl *supertux* *octave* *texlive* *0ad* libsdl2-2.0-0 libwx* *torbrowser* fonts-font-awesome 
+Package: firefox libfontconfig1* fontconfig-config libgpm2 libnss3 *scilab* *osc* *obs* youtube-dl *supertux* *0ad* libsdl2-2.0-0 libwx* *torbrowser* fonts-font-awesome 
 Pin: release a=unstable
 Pin-Priority: 1001
 
