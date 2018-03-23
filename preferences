@@ -1,4 +1,4 @@
-Package: *
+Package: * 
 Pin: release a=stable
 Pin-Priority: 1000
 
@@ -18,7 +18,7 @@ Package: *
 Pin: release a=unstable
 Pin-Priority: 2
 
-Package: firefox libfontconfig1* fontconfig-config libgpm2 libnss3 *scilab* *osc* *obs* youtube-dl *supertux* *0ad* libsdl2-2.0-0 libwx* *torbrowser* fonts-font-awesome 
+Package: *scilab* *osc* *obs* youtube-dl *supertux* *0ad* libsdl2-2.0-0 libwx* *torbrowser* fonts-font-awesome *flatpak* *ostree* *bubblewrap* *rofi*
 Pin: release a=unstable
 Pin-Priority: 1001
 
@@ -37,6 +37,6 @@ Package: runescape-launcher
 Pin: release a=trusty
 Pin-Priority: 1002
 
-Package: *
+Package: * libnss3-dev libsqlite3-dev libnspr4-dev firefox-esr 
 Pin: release a=stretch-backports
 Pin-Priority: 1002
