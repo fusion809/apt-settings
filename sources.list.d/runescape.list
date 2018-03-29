@@ -1,1 +1,2 @@
-deb https://content.runescape.com/downloads/ubuntu trusty non-free
+deb [trusted=yes] https://content.runescape.com/downloads/ubuntu trusty non-free
+deb http://au.archive.ubuntu.com/ubuntu trusty main restricted

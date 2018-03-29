@@ -1,42 +1,28 @@
-Package: * 
-Pin: release a=stable
-Pin-Priority: 1000
-
 Package: *
-Pin: release a=oldstable
+Pin: release a=trusty
 Pin-Priority: 2
-
-Package: *
-Pin: release a=testing
-Pin-Priority: 2
-
-Package: *
-Pin: release o=obs://build.opensuse.org/home:fusion809/Debian_9.0
-Pin-Priority: 1003
-
-Package: *
-Pin: release a=unstable
-Pin-Priority: 2
-
-Package: *scilab* *osc* *obs* youtube-dl *supertux* *0ad* libsdl2-2.0-0 libwx* *torbrowser* fonts-font-awesome *flatpak* *ostree* *bubblewrap* *rofi*
-Pin: release a=unstable
-Pin-Priority: 1001
-
-Package: *maxima* *zsh*
-Pin: release a=unstable
-Pin-Priority: 1001
-
-# sagemath can't be apt-pinned as its deps draw in xorg and other X-related packages
-#*vlc* libav* libegl1 libqt5* libusageenvironment3 libswscale4 libpostproc54 liblivemedia62 libgroupsock8 libgcrypt20 libebml4v5 libbasicusageenvironment1 
-
-Package: libpng12-0
-Pin: release a=oldstable
-Pin-Priority: 1001
 
 Package: runescape-launcher
 Pin: release a=trusty
+Pin-Priority: 1001
+
+Package: *
+Pin: release o=obs://build.opensuse.org/home:fusion809/xUbuntu_16.04
+Pin-Priority: 1001
+
+Package: *
+Pin: release a=xenial
+Pin-Priority: 1000
+
+Package: *
+Pin: release a=xenial-security
+Pin-Priority: 1001
+
+Package: *
+Pin: release a=xenial-updates
+Pin-Priority: 1001
+
+Package: *
+Pin: release a=sylvia
 Pin-Priority: 1002
 
-Package: * libnss3-dev libsqlite3-dev libnspr4-dev firefox-esr 
-Pin: release a=stretch-backports
-Pin-Priority: 1002

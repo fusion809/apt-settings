@@ -1,0 +1,2 @@
+deb http://ppa.launchpad.net/ci-train-ppa-service/stable-phone-overlay/ubuntu xenial main
+deb-src http://ppa.launchpad.net/ci-train-ppa-service/stable-phone-overlay/ubuntu xenial main
